@@ -1,4 +1,3 @@
-
 const target=document.getElementsByClassName("title style-scope ytmusic-player-bar")
 const observer = new MutationObserver(records => {
     loader()
@@ -23,5 +22,7 @@ function main(){
     alter.innerText="Move";
     alter.href=url.replace("music.youtube","youtube");
     alter.classList.add("btn","btn-dark","text-center");
+    alter.setAttribute("target","_blank");
+    alter.setAttribute("rel","noopener noreferrer");
     elem[0].parentNode.appendChild(alter);
     }
