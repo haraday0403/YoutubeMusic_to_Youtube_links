@@ -1,7 +1,7 @@
 {
   "name": "YoutubeMusic_linker",
   "version": "1",
-  "description": "YoutubeMusicで再生中の動画をYoutubeで見るためのボタンみたいなのを出してくれます。\nとってもいびつですね。",
+  "description": "YoutubeMusicで再生中の動画をYoutubeで見るためのボタンみたいなのを出してくれます。",
   "content_scripts": [{
     "js": ["background.js"],
     "css":["bootstrap.min.css"],
@@ -10,7 +10,7 @@
     "all_frames": true
   }],
   "icons": {
-    "48": "images/get_started48.png"
+    "48": "images/icon.png"
   },
 
   "manifest_version": 2
